@@ -1,1 +1,2 @@
-# vtt_sys_ravenous
+# Ravenous RPG system for Foundry Virtual Tabletop
+---------------------
