@@ -20,7 +20,7 @@
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "https://gitlab.com/foundrynet/worldbuilding/",
+  "url": "https://github.com/Cocobug/vtt_sys_ravenous/",
   "manifest": "https://github.com/Cocobug/vtt_sys_ravenous/blob/alpha/system.json",
   "download": "https://github.com/Cocobug/vtt_sys_ravenous/archive/refs/tags/alpha.zip",
   "license": "LICENSE.txt"
