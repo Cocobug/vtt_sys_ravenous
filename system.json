@@ -2,7 +2,7 @@
   "name": "vtt_sys_ravenous",
   "title": "Ravenous Game System",
   "description": "With ravenous hunger.",
-  "version": "0.0.5a",
+  "version": "0.0.5b",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
   "author": "Cocobug Inc.",
@@ -20,8 +20,8 @@
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "https://github.com/Cocobug/vtt_sys_ravenous/",
-  "manifest": "https://raw.githubusercontent.com/Cocobug/vtt_sys_ravenous/main/system.json",
-  "download": "https://github.com/Cocobug/vtt_sys_ravenous/archive/refs/heads/main.zip",
+  "url": "https://proxy.dandaedre.com/gitea/Dandaedre/vtt_sys_ravenous",
+  "manifest": "https://proxy.dandaedre.com/gitea/Dandaedre/vtt_sys_ravenous/raw/branch/main/system.json",
+  "download": "https://proxy.dandaedre.com/gitea/Dandaedre/vtt_sys_ravenous/archive/main.zip",
   "license": "LICENSE.txt"
 }
