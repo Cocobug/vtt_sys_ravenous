@@ -7,3 +7,4 @@
 * Implementer la liste d'items (modules?)
 * Implementer les metiers
 * Implemnter les classes et listes de compétences (modules ?)
+* Verifier si gitea est bien configuré
