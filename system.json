@@ -2,7 +2,7 @@
   "name": "vtt_sys_ravenous",
   "title": "Ravenous Game System",
   "description": "With ravenous hunger.",
-  "version": "0.0.1a",
+  "version": "0.0.2a",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
   "author": "Cocobug Inc.",
@@ -21,7 +21,7 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "url": "https://github.com/Cocobug/vtt_sys_ravenous/",
-  "manifest": "https://raw.githubusercontent.com/Cocobug/vtt_sys_ravenous/0.0.1a/system.json",
-  "download": "https://github.com/Cocobug/vtt_sys_ravenous/archive/refs/tags/0.0.1a.zip",
+  "manifest": "https://raw.githubusercontent.com/Cocobug/vtt_sys_ravenous/0.0.2a/system.json",
+  "download": "https://github.com/Cocobug/vtt_sys_ravenous/archive/refs/tags/0.0.2a.zip",
   "license": "LICENSE.txt"
 }
