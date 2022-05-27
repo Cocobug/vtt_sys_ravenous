@@ -2,6 +2,16 @@
 "Actor": {
   "types": ["character"],
   "character": {
+    "caracteristics": {
+      "str": 0,
+      "agi": 0,
+      "per": 0,
+      "chr": 0,
+      "int": 0,
+      "wpr": 0,
+      "psy": 0,
+      "chn": 0
+    },
     "biography": "",
     "health": {
       "value": 10,

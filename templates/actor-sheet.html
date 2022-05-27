@@ -2,24 +2,29 @@
 
     {{!-- Sheet Header --}}
     <header class="sheet-header">
-        <img class="profile-img" src="{{data.img}}" data-edit="img" title="{{data.name}}" height="100" width="100" />
-        <div class="header-fields">
-            <h1 class="charname">
-                <input name="name" type="text" value="{{data.name}}" placeholder="Name" />
-            </h1>
-            <div class="resource">
-                <input type="number" name="data.health.value" value="{{systemData.health.value}}"/>
-                <span> / </span>
-                <input type="number" name="data.health.max" value="{{systemData.health.max}}"/>
+        <div class="header-container">
+            <div><input class="pc-name" type="text" placeholder="Name" value="{{data.name}}"></div>
+            <div class="caracs">
+                <div class="caracs-header"><h3>Caracteristiques</h3></div>
+                <div><label for="strenght">Str</label></div>
+                <div><input id="strenght" type="number" value="{{systemData.caracteristics.str}}"></div>
+                <div><label for="intelligence">Int</label></div>
+                <div><input id="intelligence" type="number" value="{{systemData.caracteristics.int}}"></div>
+                <div><label for="agility">Agi</label></div>
+                <div><input id="agility" type="number" value="{{systemData.caracteristics.agi}}"></div>
+                <div><label for="willpower">WP</label></div>
+                <div><input id="willpower" type="number" value="{{systemData.caracteristics.wpr}}"></div>
+                <div><label for="psy">Psy</label></div>
+                <div><input id="psy" type="number" value="{{systemData.caracteristics.psy}}"></div>
+                <div><label for="charisma">Chr</label></div>
+                <div><input id="charisma" type="number" value="{{systemData.caracteristics.chr}}"></div>
+                <div><label for="perception">Per</label></div>
+                <div><input id="perception" type="number" value="{{systemData.caracteristics.per}}"></div>
+                <div><label for="luk">Luk</label></div>
+                <div><input id="luk" type="number" value="{{systemData.caracteristics.luk}}"></div>
             </div>
-            <div class="resource">
-                <input type="number" name="data.power.value" value="{{systemData.power.value}}"/>
-                <span> / </span>
-                <input type="number" name="data.power.max" value="{{systemData.power.max}}"/>
-            </div>
-            <h1 class="charname">
-                <input name="name" type="text" value="{{systemData.torque}}" placeholder="Name" />
-            </h1>
+            <div>Zone PV</div>
+            <div>Zone Armure</div>
         </div>
     </header>
 
